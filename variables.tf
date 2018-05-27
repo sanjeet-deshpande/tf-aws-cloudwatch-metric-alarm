@@ -1,4 +1,4 @@
-variable "adsk_vars" {
+variable "comp_vars" {
   type = "map"
 }
 
