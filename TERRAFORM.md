@@ -4,9 +4,9 @@
 | Name | Description | Type | Default | Required |
 |------|-------------|:----:|:-----:|:-----:|
 | actions_enabled | (Optional) Indicates whether or not actions should be executed during any changes to the alarm's state. Defaults to true. | string | `true` | no |
-| comp_vars |  | map | - | yes |
 | alarm_action_arn | (Optional) The list of actions to execute when this alarm transitions into an ALARM state from any other state. Each action is specified as an Amazon Resource Number (ARN). | string | - | yes |
 | alarm_name | (Required) The descriptive name for the alarm. This name must be unique within the user's AWS account | string | - | yes |
+| comp_vars |  | map | - | yes |
 | comparison_operator | (Required) The arithmetic operation to use when comparing the specified Statistic and Threshold. Supported operators: GreaterThanOrEqualToThreshold, GreaterThanThreshold, LessThanThreshold, LessThanOrEqualToThreshold | string | - | yes |
 | environment |  | string | - | yes |
 | evaluation_periods | (Required) The number of periods over which data is compared to the specified threshold. | string | - | yes |
